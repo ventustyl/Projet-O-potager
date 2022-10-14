@@ -61,7 +61,8 @@ export const addPost = async (req, res) => {
     existingUser.posts.push(post);
     existingUser.save({ session });
     post = await post.save();
-    
+    session.commitTransaction();
+
   } catch (err) {
     return console.log(err);
   }
