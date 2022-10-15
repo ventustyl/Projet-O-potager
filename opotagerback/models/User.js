@@ -43,7 +43,7 @@ const userSchema = new Schema(
       // J'aime avec id du post
       type: [String],
     },
-    posts: [{ type: mongoose.Types.ObjectId, ref: "Post"}]
+    posts: [{ type: mongoose.Types.ObjectId, ref: "Post" }],
   },
   {
     timestamps: true,

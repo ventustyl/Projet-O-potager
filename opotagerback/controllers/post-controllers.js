@@ -55,12 +55,10 @@ export const addPost = async (req, res) => {
     });
 
     const session = await mongoose.startSession();
-
     session.startTransaction();
-
     existingUser.posts.push(post);
-    existingUser.save({ session });
-    post = await post.save();
+    await existingUser.save({ session });
+    post = await post.save({ session });
     session.commitTransaction();
 
   } catch (err) {
@@ -83,7 +81,7 @@ export const getPostId = async (req, res) => {
     return console.log(err);
   }
   if (!post) {
-    return res.status(404).json({ message: "Post introuvable" });
+    return res.status(404).json({ message: "Article introuvable" });
   }
   return res.status(200).json({ post });
 };
@@ -129,7 +127,14 @@ export const deletePost = async (req, res) => {
   const id = req.params.id;
   let post;
   try {
+    const session = await mongoose.startSession();
+    session.startTransaction();
+    post = await Post.findById(id).populate("user")
+    post.user.posts.pull(post);
+    await post.user.save({session})
+
     post = await Post.findByIdAndDelete(id);
+    session.commitTransaction();
   } catch (err) {
     return console.log(err);
   }

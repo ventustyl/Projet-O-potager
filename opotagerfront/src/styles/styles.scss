@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+        background-color: rgb(149, 238, 149);
+        
+        .logo {
+            max-height: 80px;
+            min-width: 100px;
+            object-fit: scale-down;
+        }
+    }
+
