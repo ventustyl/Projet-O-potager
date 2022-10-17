@@ -24,11 +24,12 @@ const Header = () => {
         </a>
         <Tabs
           value={value}
-          onChange={(e, value) => setValue(value)}
+          onChange={( value) => setValue(value)}
           sx={{ ml: "auto", textDecoration: "none" }}
         >
           {pages.map((link) => (
             <Tab
+            
               LinkComponent={Link}
               to={`/${link === "home" ? "" : link }`}
               sx={{

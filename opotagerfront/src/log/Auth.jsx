@@ -1,8 +1,12 @@
 import { Box, Button, FormLabel, TextField, Typography } from "@mui/material";
 import React, { useState } from "react";
 import { sendAuthRequest } from "../LiensApi/Api";
+import { useDispatch } from "react-redux";
+import { authActions } from "../store";
 
 const Auth = () => {
+  const dispatch = useDispatch();
+
   const [isSignup, setIsSignup] = useState(true);
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -11,10 +15,12 @@ const Auth = () => {
     if (isSignup) {
       sendAuthRequest(true, inputs)
       .then(data=> console.log(data))
+      .then(()=>{dispatch(authActions.login)})
       .catch((err)=>console.log(err))
     }else {
       sendAuthRequest (false, inputs)
-      .then((data) => console.log(data))
+      .then((data) => localStorage.setItem("userId", data.id))
+      .then(()=>{dispatch(authActions.login)})
       .catch((err)=> console.log(err))
     }
   };
@@ -31,7 +37,7 @@ const Auth = () => {
 
   return (
     <Box
-      width="40%"
+      width="35%"
       borderRadius={10}
       boxShadow={"5px 5px 10px #ccc"}
       margin="auto"

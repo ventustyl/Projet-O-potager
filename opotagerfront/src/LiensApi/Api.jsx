@@ -23,6 +23,7 @@ export const sendAuthRequest = async (signup, data) => {
    if (res.status !== 200 && res.status !== 201) {
      return console.log("Unable to Authenticate");
    }
+   
    const resData = await res.data;
    return resData;
  };

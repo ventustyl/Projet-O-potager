@@ -1,4 +1,5 @@
 import "./styles/styles.scss";
+import { useSelector } from "react-redux";
 import Header from "./header/Header.jsx";
 import { Route, Routes } from "react-router-dom";
 import Home from "./home/Home";
@@ -7,6 +8,8 @@ import Journal from "./journal/Journal";
 import Plantation from "./plantation/Plantation";
 
 function App() {
+  const isLoggedIn = useSelector ((state)=> state.isLoggedIn)
+  console.log(isLoggedIn)
   return (
     <>
       <Header />
