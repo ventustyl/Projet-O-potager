@@ -13,7 +13,15 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import DriveFileRenameOutlineIcon from "@mui/icons-material/DriveFileRenameOutline";
 import { Box } from "@mui/system";
 
-const JournalElement = () => {
+const JournalElement = ({
+  titre,
+  description,
+  image,
+  location,
+  date,
+
+
+})  => {
   return (
     <Card
       sx={{
@@ -37,29 +45,24 @@ const JournalElement = () => {
             {<DriveFileRenameOutlineIcon />}
           </IconButton>
         }
-        title="Le potager de gwen"
-        subheader="15 Octobre 2022"
+        title={location}
+        header={location}
+        subheader={date}
       />
       <img
         height="300"
-        src="https://cdn.pixabay.com/photo/2011/03/16/16/01/tomatoes-5356__340.jpg"
-        alt="Paella dish"
+        src={image}
+        alt={titre}
       />
       <CardContent>
       <Typography paddingBottom={1} variant="h5" color="text.secondary">
-          Lorem ipsum dolor sit amet. 
+         {titre}
         </Typography>
         <hr />
         <Box paddingTop={1}>
         <Typography fontWeight="bold">Gwendoline Deneuchatel</Typography>
         <Typography variant="body2" color="text.secondary">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper
-          neque ac aliquam tempor. Phasellus a arcu tortor. Vestibulum ac elit
-          rutrum, maximus quam eget, scelerisque ligula. Nulla non odio
-          eleifend, tincidunt magna ac, porta felis. Quisque sodales, est et
-          varius lobortis, tortor mauris facilisis nulla, et placerat ex neque
-          et est. Quisque sollicitudin augue at est gravida, vitae fringilla
-          nisi venenatis. Aenean sed consectetur odio.
+         {description}
         </Typography>
         </Box>
       </CardContent>

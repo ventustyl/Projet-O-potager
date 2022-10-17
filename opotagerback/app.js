@@ -11,15 +11,21 @@ import dotenv from "dotenv";
 import userRouter from "./routing/user-routes";
 import postRouter from "./routing/post-routes";
 
+// Appel de Cors
+import cors from "cors"
+
 const app = express();
 dotenv.config();
 
 // middlewares
+//Utilisation de cors 
+app.use(cors());
 //bodyparser est inclu dans express donc on peut lire le json et appeler le body
 app.use(express.json());
 // Si la route est /user voir tous les utilisateurs
 app.use("/user", userRouter);
 app.use("/posts", postRouter);
+
 
 
 
