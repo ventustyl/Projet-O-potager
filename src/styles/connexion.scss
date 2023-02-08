@@ -137,12 +137,7 @@
     img {
       height: 280px;
 
-      @media (max-width: 1050px) {
-        height: 220px;
-      }
-      @media (max-width: 950px) {
-        height: 200px;
-      }
+
       @media (max-width: 885px) {
         display: none;
       }
