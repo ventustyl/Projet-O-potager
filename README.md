@@ -1,3 +1,5 @@
+![alt text](http://opotagerperso.fr/static/media/icon.5abde59f1a017c4c21b8.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
