@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  &::selection {
+    background:rgba(95, 211, 95, 0.5);
+    color: white;
+  }
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  main {
+    margin-top: 50px;
+    width: 100%;
+    h1 {
+      background-color: rgba(95, 211, 95, 0.5);
+      font-size: 40px;
+      text-align: center;
+      color: white;
+      padding: 10px;
+      font-family: "Dancing Script", cursive;
+    }
+  }
+}

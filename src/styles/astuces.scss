@@ -1,0 +1,24 @@
+h1 {
+    margin-top: 50px;
+    position: static;
+    font-size: 40px;
+    background-color: rgba(95, 211, 95, 0.5);
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: "Dancing Script", cursive;
+    width: 100%;
+}
+section {
+    article {
+        width: 90%;
+        margin: auto;
+
+        img {
+            margin: 0;
+            object-fit: contain;
+            width: 50%;
+        }
+    }
+}

@@ -1,0 +1,390 @@
+.profil-page {
+  width: 100%;
+  margin: 50px auto 200px;
+
+  flex-grow: 1;
+
+  .static {
+    position: static;
+    background-color: rgba(95, 211, 95, 0.5);
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+
+    font-family: "Dancing Script", cursive;
+  }
+  .profil-container {
+    h2 {
+      padding-left: 30px;
+      font-size: 30px;
+      font-family: "Dancing Script", cursive;
+    }
+  }
+  li {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    img {
+      margin-left: 20px;
+    }
+  }
+  .icons {
+    top: 55px;
+  }
+
+  .log-container {
+    margin: 0 auto;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 60% 40%;
+
+    @media (max-width: 885px) {
+      grid-template-columns: 100%;
+    }
+  }
+
+  .connection-form {
+    border: none;
+    background: #8cff8c;
+    min-width: 490px;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+
+    @media (max-width: 885px) {
+      min-width: 200px;
+    }
+
+    .form-container {
+      display: grid;
+      grid-template-columns: 30% 70%;
+
+      @media (max-width: 885px) {
+        grid-template-columns: 100%;
+      }
+
+      ul {
+        li {
+          cursor: pointer;
+          border-radius: 20px;
+          padding: 10px 20px;
+          transition: 0.2s;
+          list-style-type: none;
+        }
+        .active-btn {
+          background: rgb(255, 255, 255);
+          transition: 0.5s;
+
+          &:hover {
+            color: brown;
+          }
+        }
+        li:not(.active-btn) {
+          &:hover {
+            transform: translateX(10px);
+            transition: 0.5s;
+          }
+        }
+        #login {
+          position: relative;
+          @media (max-width: 550px) {
+            margin-bottom: 30px;
+
+            &:after {
+              content: "";
+              position: absolute;
+              bottom: -10px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 80%;
+              height: 1px;
+              background: #8cff8c;
+            }
+          }
+        }
+      }
+      form {
+        input {
+          padding: 14px 20px;
+          margin: 0;
+          font-size: 1.2rem;
+          font-family: "Montserrat", sans-serif;
+          border-radius: 20px;
+
+          &:focus {
+            box-shadow: 0 0 3px rgba(51, 51, 51, 0.2);
+          }
+        }
+        a {
+          color: rgb(62, 62, 214);
+        }
+      }
+    }
+  }
+  h1 {
+    text-align: center;
+    margin: 10px 0 6px;
+  }
+  .img-container {
+    display: grid;
+    align-items: center;
+    height: 100%;
+
+    img {
+      height: 280px;
+
+      @media (max-width: 1050px) {
+        height: 220px;
+      }
+      @media (max-width: 950px) {
+        height: 200px;
+      }
+      @media (max-width: 885px) {
+        display: none;
+      }
+    }
+  }
+  .update-container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    @media (max-width: 885px) {
+      grid-template-columns: 98%;
+      width: 100%;
+    }
+
+    div {
+      background: rgba(95, 211, 95, 0.5);
+      border-radius: 20px;
+      padding: 25px;
+      margin: 20px 10px;
+
+      @media (max-width: 885px) {
+        margin: 10px 20px;
+      }
+    }
+    .left-part {
+      text-align: center;
+
+      h3 {
+        margin-bottom: 12px;
+      }
+
+      img {
+        height: 100px;
+        width: 100px;
+        border-radius: 46px;
+        object-fit: contain;
+        margin-bottom: 30px;
+        box-shadow: 0 0 6px rgba(51, 51, 51, 0.363);
+      }
+      form {
+        position: relative;
+
+        label {
+          position: absolute;
+          transform: translate(-50%, -50%);
+          width: 140px;
+          background: #516451;
+          color: #8cff8c;
+          border-radius: 20px;
+          display: inline-block;
+          padding: 9px 0;
+          transition: 0.2s;
+          z-index: 10;
+          cursor: pointer;
+        }
+        input[type="file"] {
+          position: absolute;
+          width: 50px;
+          opacity: 1;
+          transform: translate(-10px, -50%);
+          cursor: pointer;
+          padding: 10px 20px;
+
+          @media (max-width: 885px) {
+            width: 140px;
+            opacity: 0;
+          }
+        }
+        input[type="submit"] {
+          width: 150px;
+          padding: 3px;
+          border-radius: 20px;
+          margin: 20px auto 10px;
+
+          &:hover {
+            letter-spacing: 1px;
+          }
+        }
+      }
+      p {
+        color: red;
+        font-family: "Montserrat", sans-serif;
+        margin-top: 6px;
+      }
+    }
+    .right-part {
+      text-align: center;
+      padding: 20px 40px;
+      h3 {
+        margin-bottom: 12px;
+      }
+      p,
+      textarea {
+        min-height: 80px;
+        border: 1px solid green;
+        border-radius: 20px 20px 6px 20px;
+        padding: 10px 20px;
+        font-size: 1.1rem;
+      }
+      textarea {
+        width: 100%;
+        margin-bottom: -6px;
+        font-size: 1.2rem;
+      }
+      button {
+        width: 150px;
+        padding: 3px;
+        border-radius: 20px;
+        margin: 20px auto 10px;
+      }
+      h4 {
+        margin: 60px 0 10px;
+      }
+      h5 {
+        background: green;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        margin: 20px 0;
+        padding: 12px;
+        font-size: 1.1rem;
+        border-radius: 20px;
+        transition: 0.2s;
+        cursor: pointer;
+
+        &:hover {
+          filter: brightness(110%);
+          transform: translateX(2px);
+        }
+      }
+    }
+  }
+  .popup-profil-container {
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    position: fixed;
+    animation: popup 1s forwards;
+
+    @keyframes popup {
+      to {
+        backdrop-filter: blur(2px);
+      }
+    }
+
+    .modal {
+      position: absolute;
+      width: 50%;
+      top: 10%;
+      left: 50%;
+      transform: translate(-100%);
+      background: rgb(95, 211, 95);
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 0 2px rgba(131, 130, 130, 0.356);
+      overflow: auto;
+      transform: scaleY(0);
+      transform-origin: center;
+      animation: modal 0.5s forwards;
+      @media (max-width: 885px) {
+        width: 100%;
+      }
+      h3 {
+        min-width: 200px;
+      }
+
+      @keyframes modal {
+        to {
+          transform: scale(1) translate(-50%);
+        }
+      }
+
+      .cross {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        transition: 0.1s;
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1.07);
+        }
+      }
+
+      ul {
+        margin: 20px 0 0;
+        max-height: 500px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+        &::-webkit-scrollbar {
+          width: 2px;
+        }
+        &::-webkit-scrollbar-track {
+          background: green;
+        }
+        &::-webkit-scrollbar-thumb {
+          background: green;
+        }
+        &::-webkit-scrollbar-thumb:hover {
+          background: #555;
+        }
+
+        li {
+          display: grid;
+          grid-template-columns: 64px 1fr 114px;
+          align-items: center;
+          margin: 10px 0;
+
+          img {
+            height: 50px;
+            width: 50px;
+            border-radius: 20px;
+            object-fit: cover;
+            box-shadow: 0 0 2px rgba(51, 51, 51, 0.376);
+          }
+          h4 {
+            padding-left: 30px;
+            text-align: left;
+         
+          }
+          .follow-handler {
+            text-align: left;
+
+            button {
+              background: green;
+              border-radius: 20px;
+           
+              padding: 10px;
+              margin-right: 50px;
+
+              &:hover {
+                color: green;
+                transform: translateX(2px);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

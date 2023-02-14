@@ -1,0 +1,1364 @@
+{
+    "Legumes": [
+        
+            {
+                "nom": "l'Ail",
+                "saison": "Se plante en février, mars, octobre ou novembre",
+                "taille": "60cm de hauteur",
+                "recolte": "Se récolte vers juin ou juillet",
+                "sol": "N'apprécie pas vraiment les terres argileuses, lourdes et humides. ",
+                "exposition" : "Ensoleillée",
+                "conservation": "quelques semaines",
+                "image": "/cat/legumes/ail.png"
+            },
+            {
+                "nom": "l'Artichaut",
+                "saison": "Se plante de janvier à mars",
+                "taille": " 100 à 150 cm de hauteur",
+                "recolte": "Se récolte de mai à août",
+                "sol": "Plutôt léger, riche et bien drainé",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/legumes/artichaut.png"
+            },
+            {
+                "nom": "l'Asperge",
+                "saison": "Se plante de février à avril",
+                "taille": "80 à 140 cm de hauteur",
+                "recolte": "Se récolte d'avril",
+                "sol": "Léger, bien drainé",
+                "exposition" : "Ensoleillée",
+                "conservation": "de 3 à 5 jours",
+                "image": "/cat/legumes/asperges.png"
+            },
+            {
+                "nom": "l'Aubergine",
+                "saison": "Se plante entre l'hiver et le printemps ",
+                "taille": "1 à 1,5 m de hauteur",
+                "recolte": "Se récolte de juillet à octobre",
+                "sol": "Assez riche",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/legumes/aubergine.png"
+            },
+            {
+                "nom": "l'Avocat",
+                "saison": "Se plante au printemps",
+                "taille": "2 à 3 m de hauteur",
+                "recolte": "Se récolte de juillet à octobre",
+                "sol": "Sols neutres, fertiles, humides , à tendance argileuse",
+                "exposition" : "Ensoleillée",
+                "conservation": "de 7 à 10 jours",
+                "image": "/cat/legumes/avocat.png"
+            },
+            {
+                "nom": "la Bette",
+                "saison": "Se plante au printemps",
+                "taille": "30 à 50 cm de hauteur",
+                "recolte": "Se récolte de juillet à novembre",
+                "sol": "Plutôt riche et acide",
+                "exposition" : "Ensoleillée, ombre légère",
+                "conservation": "de 4 à 5 jours",
+                "image": "/cat/legumes/bettes.png"
+            },
+            {
+                "nom": "la Betterave",
+                "saison": "Se plante au printemps",
+                "taille": "40 à 60 cm de hauteur",
+                "recolte": "Dès que la racine atteint 10 cm",
+                "sol": "Léger, humifère, ph neutre",
+                "exposition" : "Ensoleillée",
+                "conservation": "de 3 à 4 semaines",
+                "image": "/cat/legumes/betterave.png"
+            },
+            {
+                "nom": "la Blette",
+                "saison": "Se plante au printemps",
+                "taille": "30 à 50 cm de hauteur",
+                "recolte": "Se récolte de juillet à novembre",
+                "sol": "Plutôt riche et acide",
+                "exposition" : "Ensoleillée, ombre légère",
+                "conservation": "de 4 à 5 jours",
+                "image": "/cat/legumes/bettes.png"
+            },
+            {
+                "nom": "le Brocoli",
+                "saison": "Se plante au mois de mars",
+                "taille": "30 à 50 cm de hauteur",
+                "recolte": "Se récolte toute l’année selon variétés",
+                "sol": "Frais, profond et humide et riche",
+                "exposition" : "Ensoleillée",
+                "conservation": "5 jours",
+                "image": "/cat/legumes/brocoli.png"
+            },
+            {
+                "nom": "la Carotte",
+                "saison": "Se plante de mars à juillet",
+                "taille": " 20 à 30 cm de hauteur",
+                "recolte": "Se récolte de 3 à 6 mois selon variétés",
+                "sol": "Sableux et léger",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "10 jours",
+                "image": "/cat/legumes/carotte.png"
+            },
+            {
+                "nom": "le Céleri",
+                "saison": "Se plante de mi-avril à début juin ",
+                "taille": "50 à 70 cm de hauteur",
+                "recolte": "Se récolte en automne",
+                "sol": "Riche et frais",
+                "exposition" : "Ensoleillée",
+                "conservation": "3 semaines",
+                "image": "/cat/legumes/celeri.png"
+            },
+            {
+                "nom": "le Chou-fleur",
+                "saison": "Se plante de mars à juillet",
+                "taille": "60 à 80 cm de hauteur",
+                "recolte": "Se récolte de juin à novembre",
+                "sol": "Frais, profond et humide et riche",
+                "exposition" : "Ensoleillée",
+                "conservation": "de 2 à 3 jours",
+                "image": "/cat/legumes/chouxfleur.png"
+            },
+            {
+                "nom": "le Choux",
+                "saison": "Se plante de février à avril",
+                "taille": "30 à 80 cm de hauteur",
+                "recolte": "Se récolte toute l’année selon variétés",
+                "sol": "Frais, profond et humide et riche",
+                "exposition" : "Ensoleillée",
+                "conservation": "de 2 à 5 jours ",
+                "image": "/cat/legumes/chou.png"
+            },
+            {
+                "nom": "la Citrouille",
+                "saison": "Se plante au mois de mai",
+                "taille": "20 à 50 cm de hauteur",
+                "recolte": "Se récolte de septembre à décembre",
+                "sol": "Riche et bien drainé",
+                "exposition" : "Ensoleillée",
+                "conservation": "jusqu'à 6 mois",
+                "image": "/cat/legumes/citrouille.png"
+            },
+            {
+                "nom": "le Concombre",
+                "saison": "Se plante de mars à juin",
+                "taille": "0,5 à 2 m de hauteur",
+                "recolte": "Se récolte de mai à octobre",
+                "sol": "Ordinaire mais bien drainé",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/legumes/comconbre.png"
+            },
+            {
+                "nom": "la Courge",
+                "saison": "Se plante au printemps",
+                "taille": "20 à 50 cm de hauteur",
+                "recolte": "Se récolte de septembre à décembre",
+                "sol": "Riche et bien drainé",
+                "exposition" : "Ensoleillée",
+                "conservation": "jusqu'à 6 mois",
+                "image": "/cat/legumes/courge.png"
+            },
+            {
+                "nom": "la Courgette",
+                "saison": "Se plante de mars à août",
+                "taille": "30 à 40 cm de hauteur",
+                "recolte": "Se récolte 2 mois après semis",
+                "sol": "Plutôt léger et bien drainé",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/legumes/courgette.png"
+            },
+            {
+                "nom": "l'Échalote",
+                "saison": "Se plante vers la fin d’hiver ",
+                "taille": "15 à 25 cm de hauteur",
+                "recolte": "Se récolte l'été",
+                "sol": "Léger, drainé",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 mois",
+                "image": "/cat/legumes/echalote.png"
+            },
+            {
+                "nom": "l'Endive",
+                "saison": "Se plante au printemps",
+                "taille": "20 à 50 cm de hauteur",
+                "recolte": "Se récolte de novembre à mars",
+                "sol": "Ordinaire",
+                "exposition" : "Ensoleillée",
+                "conservation": "jusqu'à 6 jours",
+                "image": "/cat/legumes/endive.png"
+            },
+            {
+                "nom": "l'Épinard",
+                "saison": "Se plante au primtemps",
+                "taille": "20 à 30 cm de hauteur",
+                "recolte": "Se récolte toute l'année",
+                "sol": "Assez riche",
+                "exposition" : "Mi-ombre à ombre",
+                "conservation": "de 4 à 5 jours",
+                "image": "/cat/legumes/epinard.png"
+            },
+            {
+                "nom": "le Fenouil",
+                "saison": "Se plante du printemps à l'été",
+                "taille": "40 à 60 cm de hauteur",
+                "recolte": "Se récolte 3 mois après semis",
+                "sol": "Ordinaire à riche",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/legumes/fenouil.png"
+            },
+            {
+                "nom": "la Fève",
+                "saison": "Se plante au primtemps",
+                "taille": "40  à 400 cm de hauteur",
+                "recolte": "Se récolte environ 3 mois après semis",
+                "sol": "Léger, pas trop humide",
+                "exposition" : "Ensoleillée",
+                "conservation": "2 jours",
+                "image": "/cat/legumes/feve.png"
+            },
+            {
+                "nom": "le Flageolet",
+                "saison": "Se plante du printemps à l'été",
+                "taille": "40 à 200 cm de hateur",
+                "recolte": "Se récolte 2 mois après semis",
+                "sol": "Léger, pas trop humide",
+                "exposition" : "Ensoleillée",
+                "conservation": "de 3 à 4 jours",
+                "image": "/cat/legumes/flageolet.png"
+            },
+            {
+                "nom": "le Haricot",
+                "saison": "Se plante du printemps à l'été",
+                "taille": "40 à 400 cm de hateur",
+                "recolte": "Se récolte 2 à 4 mois après semis",
+                "sol": "Léger, pas trop humide",
+                "exposition" : "Ensoleillée",
+                "conservation": "de 3 à 4 jours",
+                "image": "/cat/legumes/haricot.png"
+            },
+            {
+                "nom": "la Laitue",
+                "saison": "Se plante de février à octobre",
+                "taille": "20 à 30 cm",
+                "recolte": "Se récolte environ 6 semaines après semis",
+                "sol": " Ordinaire",
+                "exposition" : "Ensoleillée, mi-ombre",
+                "conservation": "de 2 à 7 jours",
+                "image": "/cat/legumes/laitue.png"
+            },
+            {
+                "nom": "la Lentille",
+                "saison": "Se plante au primtemps",
+                "taille": "40 à 50 cm de hauteur",
+                "recolte": "Se récolte e, juillet, avant complète maturité.",
+                "sol": "Léger, voire sablonneux",
+                "exposition" : "Ensoleillée",
+                "conservation": "de 5 à 7 jours",
+                "image": "/cat/legumes/lentille.png"
+            },
+            {
+                "nom": "la Mâche",
+                "saison": "Se plante de août à octobre",
+                "taille": "20 à 30 cm de hauteur",
+                "recolte": "Se récolte en automne, hiver et printemps",
+                "sol": "Ordinaire",
+                "exposition" : "Mi-ombre",
+                "conservation": "de 3 à 4 jours",
+                "image": "/cat/legumes/mache.png"
+            },
+            {
+                "nom": "le Maîs",
+                "saison": "Se plante au primtemps",
+                "taille": "Jusqu’à 2,50m de hauteur",
+                "recolte": "Se récolte en automne",
+                "sol": "Très riche, profond et bien drainé",
+                "exposition" : "Plein soleil",
+                "conservation": "de 2 à 3 jours",
+                "image": "/cat/legumes/mais.png"
+            },
+            {
+                "nom": "le Navet",
+                "saison": "Se plante au primtemps",
+                "taille": "30 à 40 cm de hateur",
+                "recolte": "Se récolte 3 à 4 mois après semis",
+                "sol": "Riche en humus, bien drainé",
+                "exposition" : "Ensoleillée",
+                "conservation": "plusieurs semaines",
+                "image": "/cat/legumes/navet.png"
+            },
+            {
+                "nom": "l'Oignon",
+                "saison": "Se plante toute l'année selon variétés",
+                "taille": "80 à 100 cm de hauteur",
+                "recolte": "Se récolte toute l'année selon variétés",
+                "sol": "Léger, drainé",
+                "exposition" : "Ensoleillée",
+                "conservation": "environ 6 mois",
+                "image": "/cat/legumes/oignon.png"
+            },
+            {
+                "nom": "le Panais",
+                "saison": "Se plante de février à juin",
+                "taille": "50 à 70 cm de hauteur",
+                "recolte": "Se récolte en automne",
+                "sol": "Riche et frais",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/legumes/panais.png"
+            },
+            {
+                "nom": "la Patate douce",
+                "saison": "Se plante à partir de mi-mars",
+                "taille": "50 cm de hauteur",
+                "recolte": "Se récolte de juin à novembre selon variétés",
+                "sol": "Plutôt léger, rîche et peu humide",
+                "exposition" : "Ensoleillée",
+                "conservation": "de 2 à 3 semaines",
+                "image": "/cat/legumes/patatedouce.png"
+            },
+            {
+                "nom": "le Pâtisson",
+                "saison": "Se plante de mars à avril",
+                "taille": "40 cm de hauteur",
+                "recolte": "Se récolte de aôut à novembre",
+                "sol": "riche, meuble, lourd, frais",
+                "exposition" : "Ensoleillée",
+                "conservation": "de 3 à 5 jours",
+                "image": "/cat/legumes/patisson.png"
+            },
+            {
+                "nom": "le Petit pois",
+                "saison": "Se plante au primtemps",
+                "taille": "50 à 250 cm de hauteur",
+                "recolte": "Se récolte de mai à août",
+                "sol": "Riche et plutôt humide",
+                "exposition" : "Ensoleillée à mi-ombre",
+                "conservation": "de 2 à 3 jours",
+                "image": "/cat/legumes/petitpois.png"
+            },
+            {
+                "nom": "le Poireau",
+                "saison": "Se plante de février à septembre",
+                "taille": "40 à 60 cm de hauteur",
+                "recolte": "Se récolte en été, automne et hiver",
+                "sol": "Léger, drainé",
+                "exposition" : "Ensoleillée",
+                "conservation": "environ 5 jours",
+                "image": "/cat/legumes/poireau.png"
+            },
+            {
+                "nom": "le Poivron",
+                "saison": "Se plante de février à mars",
+                "taille": "50 à 80 cm de hauteur",
+                "recolte": "Se récolte 5 à 6 mois après le semis",
+                "sol": "Plutôt léger, riche et bien drainé",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/legumes/poivron.png"
+            },
+            {
+                "nom": "la Pomme de terre",
+                "saison": "Se plante à partir de mi-mars",
+                "taille": "50 cm de hauteur",
+                "recolte": "Se récolte de juin à novembre selon variétés",
+                "sol": "Plutôt léger, rîche et peu humide",
+                "exposition" : "Ensoleillée",
+                "conservation": "de 2 à 3 semaines",
+                "image": "/cat/legumes/pommedeterre.png"
+            },
+            {
+                "nom": "le Potimarron",
+                "saison": "Se plante au primtemps",
+                "taille": "20 à 40 cm de hauteur",
+                "recolte": "Se récolte à l'automne",
+                "sol": "Riche et bien drainé",
+                "exposition" : "Ensoleillée",
+                "conservation": "de 3 à 5 jours",
+                "image": "/cat/legumes/potimarron.png"
+            },
+            {
+                "nom": "le Potiron",
+                "saison": "Se plante au mois de mars",
+                "taille": "20 à 50 cm de hauteur",
+                "recolte": "Se récolte de septembre à décembre",
+                "sol": "Riche et bien drainé",
+                "exposition" : "Ensoleillée",
+                "conservation": "de 4 à 8 semaines",
+                "image": "/cat/legumes/potiron.png"
+            },
+            {
+                "nom": "le Radis",
+                "saison": "Se plante toute l'année selon variétés",
+                "taille": "15 à 30 cm de hauteur selon les variétés",
+                "recolte": "Se récolte 4 à 6 semaines après semis",
+                "sol": "Ordinaire mais léger",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "1 semaine",
+                "image": "/cat/legumes/radis.png"
+            },
+            {
+                "nom": "la Roquette",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "20 à 25 cm de hauteur",
+                "recolte": "Se récolte 2 mois après semis",
+                "sol": "Ordinaire",
+                "exposition" : "Ensoleillée, mi-ombre",
+                "conservation": "jusqu'à 5 jours",
+                "image": "/cat/legumes/roquette.png"
+            },
+            {
+                "nom": "la Salade",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "20 à 25 cm de hauteur",
+                "recolte": "Se récolte 2 mois après semis",
+                "sol": "Ordinaire",
+                "exposition" : "Ensoleillée, mi-ombre",
+                "conservation": "jusqu'à 5 jours",
+                "image": "/cat/legumes/salade.png"
+            },
+            {
+                "nom": "le Salsifis",
+                "saison": "Se plante au primtemps",
+                "taille": "30 à 90 cm de hauteur",
+                "recolte": "Se récolte d’octobre à mars",
+                "sol": "Léger, riche et bien drainé",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/legumes/salsifi.png"
+            },
+            {
+                "nom": "la Tomate",
+                "saison": "Se plante au mois de mai",
+                "taille": "80 à 140 cm de hauteur",
+                "recolte": "Se récolte l'été",
+                "sol": "Léger, assez riche",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/legumes/tomate.png"
+            },
+            {
+                "nom": "la Vitelotte",
+                "saison": "Se plante au primtemps",
+                "taille": "50 cm de hauteur",
+                "recolte": "Se récolte de juin à novembre selon espèces",
+                "sol": "Plutôt léger, rîche et peu humide",
+                "exposition" : "Ensoleillée",
+                "conservation": "de 2 à 3 semaines",
+                "image": "/cat/legumes/vitelotte.png"
+            }
+        
+    ],
+    "Fruits": [
+        
+            {
+                "nom": "l'Abricot",
+                "saison": "Se plante au primtemps",
+                "taille": "2 à 8 m de hauteur",
+                "recolte": "Se récolte de juin à août",
+                "sol": "Sol calcaire, Sol sableux, Sol caillouteux",
+                "exposition" : "Soleil",
+                "conservation": "jusqu'à 3 jours",
+                "image": "/cat/fruits/abricot.png"
+            },
+            {
+                "nom": "l'Acérola",
+                "saison": "Se plante de avril a juin",
+                "taille": "5 à 8 m de hauteur",
+                "recolte": "Se récolte de juin à octobre",
+                "sol": "Bien drainé",
+                "exposition" : "Soleil",
+                "conservation": "24 à 48 heures",
+                "image": "/cat/fruits/acerola.png"
+            },
+            {
+                "nom": "l'Airelle",
+                "saison": "Se plante au primtemps",
+                "taille": "jusqu'a 45cm de hauteur",
+                "recolte": "Se récolte de juillet à octobre",
+                "sol": "Terre de bruyère, Humus et Terreau",
+                "exposition" : "Mi-ombre",
+                "conservation": "de 3 à 6 semaines",
+                "image": "/cat/fruits/airelle.png"
+            },
+            {
+                "nom": "l'Amande",
+                "saison": "Se plante au primtemps",
+                "taille": "2 à 10m de hauteur",
+                "recolte": "Se récolte de juin à octobre",
+                "sol": "Sol calcaire et Sol caillouteux",
+                "exposition" : "Soleil",
+                "conservation": "de 6 à 12 mois",
+                "image": "/cat/fruits/amande.png"
+            },
+            {
+                "nom": "l'Ananas",
+                "saison": "Se plante de mai à juillet",
+                "taille": "45 à 150 cm de hauteur",
+                "recolte": "Se récolte de juillet à août",
+                "sol": "Sol sableux ou Humus",
+                "exposition" : "Soleil",
+                "conservation": "5 jours",
+                "image": "/cat/fruits/ananas.png"
+            },
+            {
+                "nom": "l'Avocat",
+                "saison": "Se plante au primtemps",
+                "taille": "5 à 10m de hauteur",
+                "recolte": "Se récolte au primtemps",
+                "sol": "Terre de bruyère ou Humus",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "1 semaine",
+                "image": "/cat/fruits/avocat.png"
+            },
+            {
+                "nom": "la Banane",
+                "saison": "Se plante de mai à juin",
+                "taille": "1 à 3m",
+                "recolte": "Se récolte de juillet à août",
+                "sol": "Humide",
+                "exposition" : "Soleil",
+                "conservation": "de 1 à 2 semaines",
+                "image": "/cat/fruits/banane.png"
+            },
+            {
+                "nom": "le Brugnon",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "2 à 4 m de hauteur",
+                "recolte": "Se récolte de juillet à septembre",
+                "sol": "Sol sableux, Sol caillouteux ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "5 jours",
+                "image": "/cat/fruits/brugnon.png"
+            },
+            {
+                "nom": "le Cassis",
+                "saison": "Se plante au primtemps",
+                "taille": "1 à 1,50m de hauteur",
+                "recolte": "Se récolte de juin à août",
+                "sol": "Sol argileux ou Humus",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "4 jours",
+                "image": "/cat/fruits/cassis.png"
+            },
+            {
+                "nom": "la Cerise",
+                "saison": "Se plante au primtemps",
+                "taille": "2 à 10m de hauteur",
+                "recolte": "Se récolte d'avril à juin",
+                "sol": "Sol calcaire, Sol sableux, Sol caillouteux ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "3 jours",
+                "image": "/cat/fruits/cerise.png"
+            },
+            {
+                "nom": "la Châtaigne",
+                "saison": "Se plante l'automne",
+                "taille": "2 à 15 m de hauteur",
+                "recolte": "Se récolte d'octobre à novembre",
+                "sol": "Tous types de sol",
+                "exposition" : "Ensoleillée",
+                "conservation": "de 5 à 8 jours",
+                "image": "/cat/fruits/chataigne.png"
+            },
+            {
+                "nom": "le Citron",
+                "saison": "Se plante de mars à avril",
+                "taille": "1 à 10m selon variétés",
+                "recolte": "Se récolte toute l'année selon variétés",
+                "sol": "Sol sableux, Humus ou Terreau",
+                "exposition" : "Soleil",
+                "conservation": "1 mois",
+                "image": "/cat/fruits/citron.png"
+            },
+            {
+                "nom": "la Clémentine",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "2 à 5 m de hauteur",
+                "recolte": "Se récolte d'octobre a février",
+                "sol": "Sol argileux, Sol sableux, Sol caillouteux, Humus ou Terreau",
+                "exposition" : "Soleil",
+                "conservation": "2 semaines",
+                "image": "/cat/fruits/clementine.png"
+            },
+            {
+                "nom": "le Coing",
+                "saison": "Se plante toute l'année selon variétés",
+                "taille": "3 à 4 m de hauteur",
+                "recolte": "Se récolte de septembre à novembre",
+                "sol": "Sol argileux, Sol calcaire, Sol sableux, Sol caillouteux ou Humus",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "2 semaines",
+                "image": "/cat/fruits/coing.png"
+            },
+            {
+                "nom": "la Cranberry",
+                "saison": "Se plante en septembre et octobre",
+                "taille": "30 à 45 cm de hauteur",
+                "recolte": "Se récolte en septembre et octobre",
+                "sol": "Humus",
+                "exposition" : "Mi-ombre",
+                "conservation": "3 mois",
+                "image": "/cat/fruits/cranberry.png"
+            },
+            {
+                "nom": "la Datte",
+                "saison": "Se plante de mai à août",
+                "taille": "Plus de 10 m",
+                "recolte": "Se recolte de septembre à novembre",
+                "sol": "Sol sableux",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "Plusieurs semaines",
+                "image": "/cat/fruits/datte.png"
+            },
+            {
+                "nom": "la Figue",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "1.50 à 10 m de hauteur",
+                "recolte": "Se récolte de juin à octobre",
+                "sol": "Sol calcaire ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "2 jours",
+                "image": "/cat/fruits/figue.png"
+            },
+            {
+                "nom": "la Fraise",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "15 à 45 cm de hauteur",
+                "recolte": "Se récolte de mars à a août",
+                "sol": "Sol drainé",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "de 2 à 3 jours",
+                "image": "/cat/fruits/fraise.png"
+            },
+            {
+                "nom": "la Framboise",
+                "saison": "Se plante de novembre à mars",
+                "taille": "60 à 200 cm de hauteur",
+                "recolte": "Se récolte de juin à octobre",
+                "sol": "Sol drainé",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "3 jours",
+                "image": "/cat/fruits/framboise.png"
+            },
+            {
+                "nom": "le Fruit de la passion",
+                "saison": "Se plante en avril et mai",
+                "taille": "5 à 10 m de hauteur",
+                "recolte": "Se récolte de juillet à octobre",
+                "sol": "Sol drainé et Sol sec",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "1 semaine",
+                "image": "/cat/fruits/fruitdelapassion.png"
+            },
+            {
+                "nom": "la Goyage",
+                "saison": "Se plante en avril et mai",
+                "taille": "2 à 10 m de hauteur",
+                "recolte": "Se récolte en novembre et décembre",
+                "sol": "Sol drainé",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "2 jours",
+                "image": "/cat/fruits/goyave.png"
+            },
+            {
+                "nom": "la Grenade",
+                "saison": "Se plante de septembre à décembre",
+                "taille": "2 à 5 m de hauteur",
+                "recolte": "Se récolte d'octobre à décembre",
+                "sol": "Sol argileux, Sol calcaire, Sol sableux, Sol caillouteux, Terre de bruyère ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "6 mois",
+                "image": "/cat/fruits/grenade.png"
+            },
+            {
+                "nom": "la Groseille",
+                "saison": "Se plante au primtemps",
+                "taille": "100 à 150 cm de hauteur",
+                "recolte": "Se récolte de juin à août",
+                "sol": "Sol argileux, Sol sableux ou Humus",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "3 jours",
+                "image": "/cat/fruits/groseille.png"
+            },
+            {
+                "nom": "la Griotte",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "2 à 10 m de hauteur",
+                "recolte": "Se récolte au primtemps",
+                "sol": "Sol neutre",
+                "exposition" : "Ensoleillée",
+                "conservation": "3 jours",
+                "image": "/cat/fruits/griotte.png"
+            },
+            {
+                "nom": "la Groseille noire",
+                "saison": "Se plante au primtemps",
+                "taille": "2 à 5 m de hauteur",
+                "recolte": "Se récolte de juin à octobre",
+                "sol": "Sol sableux",
+                "exposition" : "Ensoleillée",
+                "conservation": "3 jours",
+                "image": "/cat/fruits/groseille.png"
+            },
+            {
+                "nom": "le Kaki",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "5 à 15 m de hauteur",
+                "recolte": "Se recolte de septembre à novembre",
+                "sol": "$Sol drainé ou Sol sec",
+                "exposition" : "Ensoleillée",
+                "conservation": "3 jours",
+                "image": "/cat/fruits/kaki.png"
+            },
+            {
+                "nom": "le Kiwi",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "5 à 10 m de hauteur",
+                "recolte": "Se récolte de septembre à février",
+                "sol": "Sol neutre ou Sol acide",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "4 semaines",
+                "image": "/cat/fruits/kiwi.png"
+            },
+            {
+                "nom": "le Kumquat",
+                "saison": "Se plante d'avril à mai",
+                "taille": "2 à 5 m de hauteur",
+                "recolte": "Se récolte de novembre à mai",
+                "sol": "Sol sableux ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "2 semaines",
+                "image": "/cat/fruits/kumquat.png"
+            },
+            {
+                "nom": "le Litchi",
+                "saison": "Se plante au primtemps",
+                "taille": "2 à 5 m de hauteur",
+                "recolte": "Se récolte de juin à août",
+                "sol": "Terre de bruyère",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "2 semaines",
+                "image": "/cat/fruits/litchi.png"
+            },
+            {
+                "nom": "la Mandarine",
+                "saison": "Se plante de mars à août",
+                "taille": "1,50 à 5 m de hauteur",
+                "recolte": "Se récolte de septembre à avril",
+                "sol": "Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/fruits/mandarine.png"
+            },
+            {
+                "nom": "la Mangue",
+                "saison": "Se plante au primtemps",
+                "taille": "1 à 10 m de hauteur",
+                "recolte": "Se récolte de juillet à octobre",
+                "sol": "Sol sableux ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "2 jours",
+                "image": "/cat/fruits/mangue.png"
+            },
+            {
+                "nom": "le Marron",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "3 à 10 m de hauteur",
+                "recolte": "Se récolte d'octobre à novembre",
+                "sol": "Sol neutre ou Sol acide",
+                "exposition" : "Ensoleillée",
+                "conservation": " 5 jours",
+                "image": "/cat/fruits/marron.png"
+            },
+            {
+                "nom": "le Melon",
+                "saison": "Se plante au primtemps",
+                "taille": "30 à 45 cm de hauteur",
+                "recolte": "Se récolte en juillet et août",
+                "sol": "Sol calcaire ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "3 jours",
+                "image": "/cat/fruits/melon.png"
+            },
+            {
+                "nom": "la Merise",
+                "saison": "Se plante de novembre à mars",
+                "taille": "2 à 10 m de hauteur",
+                "recolte": "Se récolte en juin ou juillet",
+                "sol": "Sol neutre ou Sol acide",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "3 jours",
+                "image": "/cat/fruits/merise.png"
+            },
+            {
+                "nom": "la Mûre",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "5 à 10 m de hauteur",
+                "recolte": "Se récolte de juin à août",
+                "sol": "Sol calcaire, Sol sableux ou Sol caillouteux",
+                "exposition" : "Ensoleillée",
+                "conservation": "jours",
+                "image": "/cat/fruits/mure.png"
+            },
+            {
+                "nom": "la Myrtille",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "30 à 200 cm de hauteur",
+                "recolte": "Se récolte de juin à octobre",
+                "sol": "Sol acide",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "1 mois",
+                "image": "/cat/fruits/myrtille.png"
+            },
+            {
+                "nom": "la Nectarine",
+                "saison": "Se plante de septembre à avril",
+                "taille": "1,50 à 5 m de hauteur",
+                "recolte": "Se récolte de juillet à août",
+                "sol": "Sol sableux ,Sol caillouteux ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "3 jours",
+                "image": "/cat/fruits/nectarine.png"
+            },
+            {
+                "nom": "l'Orange",
+                "saison": "Se plante en mars ou avril",
+                "taille": "1 à 10 m de hauteur",
+                "recolte": "Se récolte de novembre à juillet",
+                "sol": "Sol sableux ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/fruits/orange.png"
+            },
+            {
+                "nom": "le Pamplemousse",
+                "saison": "Se plante de mars à avril",
+                "taille": "2 à 10 m de hauteur",
+                "recolte": "Se récolte de novembre à janvier",
+                "sol": "Sol sableux ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/fruits/pamplemousse.png"
+            },
+            {
+                "nom": "la Pastèque",
+                "saison": "Se plante de février à mai",
+                "taille": "15 à 45 cm de hauteur",
+                "recolte": "Se récolte de juillet à septembre",
+                "sol": "Sol sableux ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/fruits/pastheque.png"
+            },
+            {
+                "nom": "la Pêche",
+                "saison": "Se plante de septembre à avril",
+                "taille": "1,50 à 5 m de hauteur",
+                "recolte": "Se récolte de juillet à août",
+                "sol": "Sol sableux ,Sol caillouteux ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "3 jours",
+                "image": "/cat/fruits/peche.png"
+            },
+            {
+                "nom": "la Poire",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "1 à 10 m de hauteur",
+                "recolte": "Se récolte de juin à octobre",
+                "sol": "Sol argileux, Sol sableux ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "5 jours",
+                "image": "/cat/fruits/poire.png"
+            },
+            {
+                "nom": "la Pomme",
+                "saison": "Se plante d'octobre à mars",
+                "taille": "1 à 13 m de hauteur",
+                "recolte": "Se récolte de juillet a octobre",
+                "sol": "Sol argileux, Sol calcaire ou Humus",
+                "exposition" : "Mi-ombre",
+                "conservation": "6 mois",
+                "image": "/cat/fruits/pomme.png"
+            },
+            {
+                "nom": "la Prune",
+                "saison": "Se plante de novembre à avril",
+                "taille": "2 à 10 m de hauteur",
+                "recolte": "Se récolte de juillet à septembre",
+                "sol": "Sol argileux ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "3 jours",
+                "image": "/cat/fruits/prune.png"
+            },
+            {
+                "nom": "le Raisin",
+                "saison": "Se plante d'octobre à avril",
+                "taille": "1,50 à 10 m de hauteur",
+                "recolte": "Se récolte d'août à octobre",
+                "sol": "Sol argileux, Sol calcaire, Sol sableux, Sol caillouteux, Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "5 jours",
+                "image": "/cat/fruits/raisin.png"
+            }
+        
+    ],
+    "Aromates": [
+        
+               {
+                "nom": "l'Ail",
+                "saison": "Se plante en février, mars, octobre ou novembre",
+                "taille": "60cm de hauteur",
+                "recolte": "Se récolte vers juin ou juillet",
+                "sol": "N'apprécie pas vraiment les terres argileuses, lourdes et humides. ",
+                "exposition" : "Ensoleillée",
+                "conservation": "quelques semaines",
+                "image": "/cat/aromates/ail.png"
+            },
+            {
+                "nom": "l'Aneth",
+                "saison": "Se plante toute l'année",
+                "taille": "30 à 150 cm de hauteur",
+                "recolte": "Se récolte d'avril à octobre",
+                "sol": "Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "2 semaines",
+                "image": "/cat/aromates/aneth.png"
+            },
+            {
+                "nom": "l'Anis",
+                "saison": "Se plante de mars à mai",
+                "taille": "45 à 60cm de hauteur",
+                "recolte": "Se récolte d'août à septembre",
+                "sol": "Sol calcaire, Sol sableux, Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "3 ans",
+                "image": "/cat/aromates/anis.png"
+            },
+            {
+                "nom": "l'Armoise",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "15 à 150 cm de hauteur",
+                "recolte": "Se récolte en juin",
+                "sol": "Sol drainé ou sol sec",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "3 semaines",
+                "image": "/cat/aromates/armoise.png"
+            },
+            {
+                "nom": "l'Aurore",
+                "saison": "Se plante de mai à septembre",
+                "taille": "45 à 100 cm de hauteur",
+                "recolte": "Se récolte de juillet à novembre",
+                "sol": "Sol argileux, Sol calcaire, Sol sableux, Sol caillouteux ou Humus",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "1 mois",
+                "image": "/cat/aromates/aurore.png"
+            },
+            {
+                "nom": "la Badiane",
+                "saison": "Se plante de mars à avril",
+                "taille": "Pas de hauteur",
+                "recolte": "Se récolte de septembre à octobre",
+                "sol": "Terre de bruyère, Humus ou Terreau",
+                "exposition" : "Mi-ombre",
+                "conservation": "3 ans",
+                "image": "/cat/aromates/badiane.png"
+            },
+            {
+                "nom": "le Basilic",
+                "saison": "Se plante de février à juillet",
+                "taille": "15 à 100 cm de hauteur",
+                "recolte": "Se récolte de juin à novembre",
+                "sol": "Sol neutre",
+                "exposition" : "Ensoleillée",
+                "conservation": "10 jours",
+                "image": "/cat/aromates/basilic.png"
+            },
+            {
+                "nom": "le Bigaradier",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "2 à 10 m de hauteur",
+                "recolte": "Se récolte au primtemps et l'été",
+                "sol": "Sol sableux, Sol caillouteux, Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 mois",
+                "image": "/cat/aromates/bigaradier.png"
+            },
+            {
+                "nom": "la Bourrache",
+                "saison": "Se plante de mars à octobre",
+                "taille": "30 à 60 cm de hauteur",
+                "recolte": "Se récolte de mars à novembre",
+                "sol": "Sol neutre",
+                "exposition" : "Ensoleillée",
+                "conservation": "2 jours",
+                "image": "/cat/aromates/bourrache.png"
+            },
+            {
+                "nom": "la Cannelle",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "4 à 15 m de hauteur",
+                "recolte": "Se récolte de mars à juin",
+                "sol": "Humus ou Terreau",   
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "2 ans",
+                "image": "/cat/aromates/canelle.png"
+            },
+            {
+                "nom": "le Câpre",
+                "saison": "Se plante au primtemps",
+                "taille": "45 à 150 cm de hauteur",
+                "recolte": "Se récolte de juillet à novembre",
+                "sol": "Sol calcaire, Sol sableux ou Sol caillouteux",
+                "exposition" : "Ensoleillée",
+                "conservation": "3 ans",
+                "image": "/cat/aromates/capre.png"
+            },
+            {
+                "nom": "la Capucine",
+                "saison": "Se plante de mars à juin",
+                "taille": "15 à 500 cm de hauteur",
+                "recolte": "Se récolte de mai à octobre",
+                "sol": "Sol calcaire,, Sol sableux, Sol caillouteux, Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "3 jours",
+                "image": "/cat/aromates/capucine.png"
+            },
+            {
+                "nom": "le Cardamome",
+                "saison": "Se plante toute l'année",
+                "taille": "1 à 5 m de hauteur",
+                "recolte": "Se récolte de septembre à novembre",
+                "sol": "Humus ou Terreau",
+                "exposition" : "Mi-ombre",
+                "conservation": "3 mois",
+                "image": "/cat/aromates/cardamome.png"
+            },
+            {
+                "nom": "le Cerfeuil",
+                "saison": "Se plante toute l'année",
+                "taille": "30 à 100 cm de hauteur",
+                "recolte": "Se récolte d'avril à septembre",
+                "sol": "Sol sableux, Humus ou Terreau",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "3 jours",
+                "image": "/cat/aromates/cerfeuil.png"
+            },
+            {
+                "nom": "la Ciboulette",
+                "saison": "Se plante de mars à ocobre",
+                "taille": "15 à 60 cm de hauteur",
+                "recolte": "Se récolte d'avril à mars",
+                "sol": "Humus ou Terreau",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "1 semaine",
+                "image": "/cat/aromates/ciboulette.png"
+            },
+            {
+                "nom": "la Citronnelle",
+                "saison": "Se plante de mai à septembre",
+                "taille": "60 à 100 cm de hauteur",
+                "recolte": "Se récolte de mai à septembre",
+                "sol": "Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "5 jours",
+                "image": "/cat/aromates/citronelle.png"
+            },
+            {
+                "nom": "le Coriandre",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "7540e993-1e05-481b-853b-5e25f84ba510",
+                "recolte": "Se récolte de juin à novembre",
+                "sol": "60 à 100 cm de hauteur",
+                "exposition" : "Ensoleillée",
+                "conservation": "3 semaines",
+                "image": "/cat/aromates/coriandre.png"
+            },
+            {
+                "nom": "le Cresson",
+                "saison": "Se plante d'avril à juillet",
+                "taille": "15 à 30 cm de hauteur",
+                "recolte": "Se récolte de juillet à octobre",
+                "sol": "Sol argileux, Sol calcaire, Sol sableux ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/aromates/cresson.png"
+            },
+            {
+                "nom": "le Cumin",
+                "saison": "Se plante de mars à mai",
+                "taille": "15 à 30 cm de hauteur",
+                "recolte": "Se récolte en septembre ou octobre",
+                "sol": "Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "4 ans",
+                "image": "/cat/aromates/cumin.png"
+            },
+            {
+                "nom": "le Curcuma",
+                "saison": "Se plante de février à mai",
+                "taille": "60 à 100 cm de hauteur",
+                "recolte": "Se récolte en septembre",
+                "sol": "Sol sableux, Humus ou Terreau",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "4 semaines",
+                "image": "/cat/aromates/curcuma.png"
+            },
+            {
+                "nom": "l'Echalote",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "15 à 45 cm de hauteur",
+                "recolte": "Se récolte de juin à août",
+                "sol": "Sol calcaire, Sol sableux ou Sol caillouteux",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 mois",
+                "image": "/cat/aromates/echalote.png"
+            },
+            {
+                "nom": "l'Estragon",
+                "saison": "Se plante d'avril à septembre",
+                "taille": "30 à 100 cm de hauteur",
+                "recolte": "Se récolte de juillet a octobre",
+                "sol": "Sol argileux, Sol sableux, Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "3 jours",
+                "image": "/cat/aromates/estragon.png"
+            },
+            {
+                "nom": "le Fenouil",
+                "saison": "Se plante d'avril à septembre",
+                "taille": "1 à 2 m de hauteur",
+                "recolte": "Se récolte d'avril à octobre",
+                "sol": "Sol sableux, Sol caillouteux ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/aromates/fenouil.png"
+            },
+            {
+                "nom": "le Gingembre",
+                "saison": "Se plante de février à mai",
+                "taille": "60 à 150 cm de hauteur",
+                "recolte": "Se récolte de mai à novembre",
+                "sol": "Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "2 semaines",
+                "image": "/cat/aromates/gingembre.png"
+            },
+            {
+                "nom": "le Girofle",
+                "saison": "Se plante de mars à mai",
+                "taille": "2 à 10 m de hauteur",
+                "recolte": "Se récolte d'avril à juin",
+                "sol": "Sol neutre ou Sol acide",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/aromates/girofle.png"
+            },
+            {
+                "nom": "le Houblon",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "5 à 10 m de hauteur",
+                "recolte": "Se récolte d'août à septembre",
+                "sol": "Sol calcaire, Sol sableux, Sol caillouteux ou Humus",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "1 an",
+                "image": "/cat/aromates/houblon.png"
+            },
+            {
+                "nom": "le Laurier",
+                "saison": "Se plante à mars à mai",
+                "taille": "2 à 5 m de hauteur",
+                "recolte": "Se récolte toute l'année",
+                "sol": "Humus ou Terreau",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "3 jours",
+                "image": "/cat/aromates/laurier.png"
+            },
+            {
+                "nom": "la Marjolaine",
+                "saison": "Se plante de mai à juin",
+                "taille": "30 à 60 cm de hauteur",
+                "recolte": "Se récolte de juillet à octobre",
+                "sol": "Sol sableux, Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/aromates/marjolaine.png"
+            },
+            {
+                "nom": "la Menthe",
+                "saison": "Se plante au primtemps",
+                "taille": "20 à 100 cm selon s",
+                "recolte": "Se récolte 2 à 4 mois après semis",
+                "sol": "Sol humide",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "10 jours",
+                "image": "/cat/aromates/menthe.png"
+            },
+            {
+                "nom": "la Moutarde",
+                "saison": "Se plante de mars à octobre",
+                "taille": "60 à 150 cm de hauteur",
+                "recolte": "Se récolte toute l'année selon variétés",
+                "sol": "Sol argileux, Sol calcaire, Sol sableux ou Humus",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "3 ans",
+                "image": "/cat/aromates/moutarde.png"
+            },
+            {
+                "nom": "la Muscade",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "5 à 10 m de hauteur",
+                "recolte": "Se récolte d'octobre à janvier",
+                "sol": "Sol argileux, Sol sableux, Terre de bruyère ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "6 mois",
+                "image": "/cat/aromates/muscade.png"
+            },
+            {
+                "nom": "l'Oignon",
+                "saison": "Se plante de févier à novembre",
+                "taille": "45 à 100 cm",
+                "recolte": "Se récolte de mai à novembre",
+                "sol": "Sol calcaire ou Sol sableux",
+                "exposition" : "Ensoleillée",
+                "conservation": "10 mois",
+                "image": "/cat/aromates/oignon.png"
+            },
+            {
+                "nom": "l'Origan",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "30 à 100 cm de hauteur",
+                "recolte": "Se récolte de juin à octobre",
+                "sol": "Sol calcaire, Sol sableux, Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/aromates/origan.png"
+            },
+            {
+                "nom": "le Persil",
+                "saison": "Se plante de mars à août",
+                "taille": "15 à 30 cm de hauteur",
+                "recolte": "Se récolte toute l'année",
+                "sol": "Sol calcaire, Humus ou Terreau",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "1 semaine",
+                "image": "/cat/aromates/persil.png"
+            },
+            {
+                "nom": "le Piment",
+                "saison": "Se plante de février à mai",
+                "taille": "30 à 150 cm de hauteur",
+                "recolte": "Se récolte de juillet a octobre",
+                "sol": "Sol sableux, Sol caillouteux ou Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "2 semaines",
+                "image": "/cat/aromates/piment.png"
+            },
+            {
+                "nom": "la Pimprenelle",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "15 à 60 cm de hauteur",
+                "recolte": "Se récolte toute l'année",
+                "sol": "Sol calcaire, Sol sableux, Humus ou Terreau",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "4 jours",
+                "image": "/cat/aromates/pimprenelle.png"
+            },
+            {
+                "nom": "le Poivre",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "2 à 5 m de hauteur",
+                "recolte": "Se récolte de mai à septembre",
+                "sol": "Sol argileux, Sol calcaire, Sol sableux, Sol caillouteux, Terre de bruyère ou Humus",
+                "exposition" : "Mi-ombre",
+                "conservation": "3 mois",
+                "image": "/cat/aromates/poivre.png"
+            },
+            {
+                "nom": "le Romarin",
+                "saison": "Se plante de mars à juin",
+                "taille": "20 à 150 cm de hauteur",
+                "recolte": "Se récolte toute l'année",
+                "sol": "Sol calcaire, Sol caillouteux, Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/aromates/romarin.png"
+            },
+            {
+                "nom": "le Safran",
+                "saison": "Se plante en juillet et août",
+                "taille": "moins de 20 cm de hauteur",
+                "recolte": "Se récolte en octobre et novembre",
+                "sol": "Sol calcaire, Sol sableux ou Sol caillouteux",
+                "exposition" : "Ensoleillée",
+                "conservation": "4 ans",
+                "image": "/cat/aromates/safran.png"
+            },
+            {
+                "nom": "la Sarriette",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "20 à 50 cm de hauteur",
+                "recolte": "Se récolte toute l'année",
+                "sol": "Sol calcaire, Sol sableux, Sol caillouteux, Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 an",
+                "image": "/cat/aromates/sarriette.png"
+            },
+            {
+                "nom": "la Sauge",
+                "saison": "Se plante d'avril à juillet",
+                "taille": "30 à 60 cm de hauteur",
+                "recolte": "Se récolte de juin à septembre",
+                "sol": "Sol calcaire, Sol caillouteux, Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "3 jours",
+                "image": "/cat/aromates/sauge.png"
+            },
+            {
+                "nom": "le Sésame",
+                "saison": "Se plante de février à mai",
+                "taille": "60 à 100 cm de hauteur",
+                "recolte": "Se récolte de juin à octobre",
+                "sol": "Humus",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 an",
+                "image": "/cat/aromates/sesame.png"
+            },
+            {
+                "nom": "le Tamarin",
+                "saison": "Se plante en avril et mai",
+                "taille": "5 à 15 m de hauteur",
+                "recolte": "Se récolte de septembre à novembre",
+                "sol": "Sol sableux, Sol caillouteux, Terre de bruyère ou Humus",
+                "exposition" : "Mi-ombre",
+                "conservation": "3 jours",
+                "image": "/cat/aromates/tamarin.png"
+            },
+            {
+                "nom": "le Thym",
+                "saison": "Se plante au primtemps et automne",
+                "taille": "20 à 60 cm de hauteur",
+                "recolte": "Se récolte de mars à juillet",
+                "sol": "Sol calcaire, Sol sableux, Sol caillouteux, Humus ou Terreau",
+                "exposition" : "Ensoleillée",
+                "conservation": "1 semaine",
+                "image": "/cat/aromates/thym.png"
+            },
+            {
+                "nom": "la Vanille",
+                "saison": "Se plante en mars et avril",
+                "taille": "5 à 15 m de hauteur",
+                "recolte": "Se récolte en mai et juin",
+                "sol": "Terreau",
+                "exposition" : "Ensoleillée et mi-ombre",
+                "conservation": "10 mois",
+                "image": "/cat/aromates/vanille.png"
+            }
+        
+    ]
+}

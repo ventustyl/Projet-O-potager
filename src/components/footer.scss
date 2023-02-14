@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  height: 150px;
+  background-image: url("../images/footer.png");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 101;
+
+  .credit {
+    top: 80%;
+    overflow: hidden;
+    padding-left: 10px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    @media (max-width: 885px) {
+      text-align: center;
+    }
+    p {
+      @media (max-width: 885px) {
+        font-size: 10px;
+      }
+
+    }
+  }
+}
