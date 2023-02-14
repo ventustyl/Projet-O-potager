@@ -1,4 +1,4 @@
-{% comment %} 
+[
 
   /$$$$$$        /$$$$$$$              /$$                                                   /$$$$$$$                                         
  /$$__  $$      | $$__  $$            | $$                                                  | $$__  $$                                        
@@ -12,7 +12,8 @@
                                                         |  $$$$$$/                                                                            
                                                          \______/                                                                             
 
-{% endcomment %}
+
+]
 
 # Getting Started with Create React App
 
