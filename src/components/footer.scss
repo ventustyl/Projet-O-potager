@@ -16,7 +16,7 @@
     padding-left: 10px;
     color: white;
     position: absolute;
-    bottom: 10px;
+
     display: flex;
     gap: 20px;
     align-items: center;
@@ -27,7 +27,14 @@
       @media (max-width: 885px) {
         font-size: 10px;
       }
+a {
 
+  color: white;
+  text-decoration: none;
+  @media (max-width: 885px) {
+    font-size: 10px;
+  }
+}
     }
   }
 }

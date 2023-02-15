@@ -22,6 +22,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useDispatch } from "react-redux";
 import { getUser } from "./actions/user.action";
+import Conditions from "./pages/Conditions";
 
 //Creation de la structure des pages dans un layout avec outlet de react router dom
 const Layout = () => {
@@ -79,6 +80,10 @@ const router = createBrowserRouter([
       {
         path: "/mentions",
         element: <Mentions />,
+      },
+      {
+        path: "/conditions",
+        element: <Conditions />,
       },
       {
         path: "/*",

@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./email.scss";
 import Facebook from "../images/facebook.png";
+import Twiter from "../images/twiter.png";
+import Instagram from "../images/instagram.png";
 
 // npm i @emailjs/browser
 
@@ -34,24 +36,37 @@ const Email = () => {
     <div id="contact-container">
       <h1 className="contact-titre">Contactez-nous</h1>
       <div className="contact-texte">
+      <div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis
-          luctus lacus. Praesent consectetur luctus nibh, nec mattis tortor
-          tincidunt nec. Pellentesque facilisis et dolor in pellentesque. Etiam
-          imperdiet egestas vestibulum. Donec ut pulvinar tortor. Pellentesque
-          blandit finibus enim, quis aliquam mi vulputate nec. Proin mi ante,
-          bibendum interdum felis ac, interdum accumsan mi. Cras id quam ut nisl
-          ultricies eleifend id a ipsum. Cras rutrum commodo dolor, nec auctor
-          quam sollicitudin in. Aenean metus velit, facilisis ac ligula sed,
-          ultrices luctus mi. Quisque a commodo augue. Nam non odio ac nulla
-          scelerisque interdum. Suspendisse ultricies euismod tristique. Nunc id
-          eleifend nisl. Duis eget ligula hendrerit erat varius lobortis. Sed
-          ornare lacus quam, vel sodales enim finibus in.
-          <p>Suivez-nous également sur les réseaux</p>
-          <div>
-            <img src={Facebook} alt="facebook icon"></img>
-          </div>
+          Si vous avez des questions, des commentaires ou des suggestions,
+          n'hésitez pas à nous contacter en utilisant le formulaire ci-dessous.
         </p>
+        <p>
+          Nous sommes toujours ravis d'entendre parler de nos visiteurs et de
+          répondre à leurs demandes. Nous sommes également ouverts aux
+          collaborations avec d'autres passionnés de jardinage, des associations
+          de protection de l'environnement et des entreprises qui partagent
+          notre engagement pour la nature et le bien-être de la planète.
+        </p>
+        <p>
+          Si vous souhaitez travailler avec nous ou nous proposer un
+          partenariat, veuillez également utiliser le formulaire de contact
+          ci-dessous et nous vous répondrons dans les plus brefs délais. Enfin,
+          si vous souhaitez soutenir notre site et nous aider à continuer à
+          partager notre passion pour les plantes, vous pouvez nous faire un don
+          en utilisant le lien ci-dessous.
+        </p>
+        <p>
+          Chaque contribution est appréciée et nous permet de continuer à
+          proposer du contenu de qualité à nos visiteurs.
+        </p>
+        <p>Suivez-nous également sur les réseaux</p>
+        <div className="social">
+          <img src={Facebook} alt="facebook icon"></img>
+          <img src={Twiter} alt="Twitter icon"></img>
+          <img src={Instagram} alt="Instagram icon"></img>
+        </div>
+  </div>
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
           <input type="text" name="user_name" />

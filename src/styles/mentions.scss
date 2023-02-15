@@ -1,14 +1,32 @@
-main {
-  width: 80%;
-  p {
+section{
+
+  @media (max-width: 885px) {
+    width: 90%;
+  }
+  h4{
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+  .mention {
     margin-bottom: 40px;
+    font-size: 18px;
     &:nth-child(4) {
-      margin-bottom: 150px;
+      margin-bottom: 200px;
     }
+    }
+.condition {
+  margin-bottom: 40px;
+  font-size: 18px;
+  &:nth-child(10) {
+    margin-bottom: 200px;
+  }
+}
+  
     a {
+      font-size: 18px;
       color: green;
       font-weight: bold;
       text-decoration: none;
     }
   }
-}
+

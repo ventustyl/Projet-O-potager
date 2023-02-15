@@ -1,9 +1,6 @@
 #contact-container {
   width: 100%;
-
   margin-top: 50px;
-  @media (max-width: 885px) {
-  }
 
   .contact-texte {
     padding: 20px;
@@ -14,20 +11,31 @@
       flex-direction: column;
       width: 100%;
     }
-
-    .contact-titre {
-      position: static;
-      background-color: rgba(95, 211, 95, 0.5);
-      font-size: 40px;
-      text-align: center;
-      color: white;
-      padding: 10px;
-      font-family: "Dancing Script", cursive;
-      width: 100%;
-    }
     p {
-      padding: 20px;
-      width: 60%;
+      font-size: 18px;
+      margin-top: 30px;
+      padding: 10px;
+      width: 100%;
+      @media (max-width: 885px) {
+        flex-direction: column;
+        width: 100%;
+        font-size: 18px;
+      }
+    }
+   .social {
+    display: flex;
+    margin-left: 50px;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 30px;
+      @media (max-width: 885px) {
+        justify-content: center;
+        width: 100%;
+        margin-left: 0px;
+      }
+      img {
+        width: 40px;
+      }
     }
   }
   form {
@@ -37,20 +45,20 @@
     align-items: center;
     margin: 30px auto 200px;
     border: 2px solid green;
-    width: 30%;
+    width: 100%;
     @media (max-width: 885px) {
       width: 90%;
       margin-bottom: 200px;
     }
 
     label {
-      margin: 10px;
+      margin: 5px;
       font-size: 20px;
       color: green;
     }
     input {
       margin: 20px;
-      padding: 20px;
+      padding: 10px;
       width: 100%;
       @media (max-width: 885px) {
         width: 90%;

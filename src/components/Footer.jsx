@@ -6,8 +6,8 @@ function Footer() {
     <footer className="footer">
       <div className="credit">
         <p>Réalisé avec ❤️ par moi même </p>
-        <p>Mentions Légales </p>
-        <p>Conditions d'utilisation </p>
+        <p><a href='./Mentions'>Mentions Légales</a> </p>
+        <p><a href='./Conditions'>Conditions d'utilisation</a> </p>
       </div>
     </footer>
   );

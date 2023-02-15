@@ -12,13 +12,59 @@ h1 {
 }
 section {
     article {
-        width: 90%;
+        width: 95%;
         margin: auto;
+        .legende {
+            img {
+                margin: 20px;
+                width: 30%;
+                object-fit: contain;
+                @media (max-width: 885px) {
+                    width: 100%;
+                    margin: 20px auto;
+                }
+            }
+            .astuce {
+                display: flex;
+                width: 80%;
+                gap: 30px;
+                @media (max-width: 885px) {
+                    flex-direction: column;
+                    width: 100%;
+                }
+                img {
+                    width: 40%;
+                    @media (max-width: 885px) {
+                        width: 100%;
+                    }
+                    &:nth-child(2) {
+                        margin-top: 120px;
+                        @media (max-width: 885px) {
+                           margin-top: -10px;
+                        }
+                    }
+                    &:nth-child(3) {
+                        margin-top: 80px;
+                        @media (max-width: 885px) {
+                            margin-top: -10px;
+                         }
+                    }
+                }
+            }
+        }
+        .telechargement {
+            font-size: 18px;
+            margin: 0 auto ;
+            text-align: center;
 
-        img {
-            margin: 0;
-            object-fit: contain;
-            width: 50%;
+        }
+        img {  
+            display: block;
+            width: 5%;
+            margin: 20px auto 150px ;
+            @media (max-width: 885px) {
+                width: 20%;
+            }
         }
     }
 }
