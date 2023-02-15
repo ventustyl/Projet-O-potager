@@ -5,22 +5,30 @@ $color: #3ccf17;
 
 .flex1 {
   width: 28%;
-  margin: 100px auto ;
-
+  margin: 100px auto;
+  @media (max-width: 885px) {
+    width: 80%;
+    margin: 50px auto;
+}
 
   .img-erreur {
     width: 100%;
     margin: auto;
     display: flex;
-
     align-items: center;
+    @media (max-width: 885px) {
+      width: 100%;
+      margin: 20px auto;
   }
+
+  }
+
   p {
     text-align: center;
     font-size: 30px;
   }
   div {
-    margin: auto;
+    margin: 0 auto 200px;
     width: 100%;
     text-align: center;
     margin-top: 20px;
@@ -54,8 +62,7 @@ $color: #3ccf17;
         height: $thick;
         background: $color;
         // z-index: -1;
-        transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s,
-          right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s,
+        transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s,
           left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
         transform-origin: left;
       }
@@ -119,8 +126,8 @@ $color: #3ccf17;
         right: -$thick;
         left: -$thick;
         transform-origin: right;
-        transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s,
-          right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+        transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01),
+          left 0s 0.3s;
       }
 
       .line {

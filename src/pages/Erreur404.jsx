@@ -10,7 +10,7 @@ const Erreur404 = () => {
       <p>
        Oups, ça a planté ! <br /> Essayez autre chose
       </p>
-      <div>
+      <div className="error404">
         <a href="/">
           <span class="text">Accueil</span>
           <span class="line -right"></span>
