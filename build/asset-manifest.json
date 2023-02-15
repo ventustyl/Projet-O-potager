@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.eeb0167a.css",
-    "main.js": "/static/js/main.e3149fd5.js",
+    "main.css": "/static/css/main.b68164c8.css",
+    "main.js": "/static/js/main.e1a5465a.js",
     "static/js/496.cfaa14a3.chunk.js": "/static/js/496.cfaa14a3.chunk.js",
-    "static/media/Calendrier-legumes.jpg": "/static/media/Calendrier-legumes.ec1365b5608989c9c06c.jpg",
+    "static/media/Calendrier-legumes.jpg": "/static/media/Calendrier-legumes.3d2bbab10bf3e5320a9f.jpg",
     "static/media/Legumes.jpg": "/static/media/Legumes.36f4cf9489be6d5f8843.jpg",
     "static/media/pngegg.png": "/static/media/pngegg.0801ad2fc949d5665f9d.png",
     "static/media/footer.png": "/static/media/footer.1c47ba570c9369697204.png",
+    "static/media/listing 1.jpg": "/static/media/listing 1.7e058d776989c42ac627.jpg",
+    "static/media/listing 2.jpg": "/static/media/listing 2.e9b167ee60fcfd8e5034.jpg",
+    "static/media/listing 3.jpg": "/static/media/listing 3.7ea5059ae696a61ca786.jpg",
     "static/media/Aromates.jpg": "/static/media/Aromates.ff8ac3c363e663a8ce79.jpg",
     "static/media/Fruits.jpg": "/static/media/Fruits.5f933af096203e4b533b.jpg",
     "static/media/imgerreur404.png": "/static/media/imgerreur404.21edf6ec6618dfdf715c.png",
     "static/media/inline-31672.jpg": "/static/media/inline-31672.888af02b4506a0c1ac80.jpg",
     "static/media/log.png": "/static/media/log.4b6dd437b5fc68e49e1d.png",
+    "static/media/legende.jpg": "/static/media/legende.f49ee0402004f4f9b9b6.jpg",
+    "static/media/logos-icones-medias-sociaux.jpg": "/static/media/logos-icones-medias-sociaux.a8cd9ba5d6c1f9ba9965.jpg",
     "static/media/icon.png": "/static/media/icon.5abde59f1a017c4c21b8.png",
     "static/media/icon.jpg": "/static/media/icon.07597bc1b35265b15769.jpg",
     "static/media/200418f-fr-pngi.jpg": "/static/media/200418f-fr-pngi.1e8c7bb893a0d54ba51c.jpg",
     "static/media/exemple-potager.jpg": "/static/media/exemple-potager.1e8c7bb893a0d54ba51c.jpg",
+    "static/media/instagram.png": "/static/media/instagram.75e0546a6b5abe4c0506.png",
     "index.html": "/index.html",
     "static/media/trash.svg": "/static/media/trash.da869b8e7f4cbd6ab37eb8ba50da4205.svg",
     "static/media/picture.svg": "/static/media/picture.8fd9b545142ad7a57b2085ccfa7395ce.svg",
@@ -26,12 +32,12 @@
     "static/media/heart.svg": "/static/media/heart.19c8723708fe4653b2cd897d37721258.svg",
     "static/media/checked.svg": "/static/media/checked.dce8c154e94d7fe9da8640b7c99041f6.svg",
     "static/media/check.svg": "/static/media/check.74103209ddb74b73190cb4202cd018b4.svg",
-    "main.eeb0167a.css.map": "/static/css/main.eeb0167a.css.map",
-    "main.e3149fd5.js.map": "/static/js/main.e3149fd5.js.map",
+    "main.b68164c8.css.map": "/static/css/main.b68164c8.css.map",
+    "main.e1a5465a.js.map": "/static/js/main.e1a5465a.js.map",
     "496.cfaa14a3.chunk.js.map": "/static/js/496.cfaa14a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eeb0167a.css",
-    "static/js/main.e3149fd5.js"
+    "static/css/main.b68164c8.css",
+    "static/js/main.e1a5465a.js"
   ]
 }
