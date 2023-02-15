@@ -45,22 +45,21 @@ const Home = () => {
             comme un modèle pour concevoir des jardins, des fermes et des
             systèmes alimentaires plus durables qui produisent des aliments
             sains et nutritifs. La permaculture met l'accent sur les relations
-            entre les plantes, les animaux, les humains et le sol. Cela signifie
-            que toutes les formes de vie sont considérées comme des acteurs
-            importants dans la production alimentaire et que les relations entre
-            eux sont optimisées pour créer un équilibre écologique. Les aliments
-            produits en permaculture sont souvent considérés comme plus sains
-            que les aliments produits par les méthodes traditionnelles, car ils
-            sont cultivés sans produits chimiques nocifs et sont souvent plus
-            riches en nutriments. En outre, la permaculture encourage les
-            pratiques de rotation des cultures et de protection des sols pour
-            renforcer la santé du sol et de la vie microbienne, ce qui peut
-            améliorer la qualité des aliments produits. En somme, la
-            permaculture offre une alternative durable pour la production
-            alimentaire qui tient compte de la santé de la nature et des
-            personnes. Elle crée une relation symbiotique entre les éléments du
-            système alimentaire pour produire des aliments de qualité
-            supérieure.
+            entre les plantes, les animaux, les humains et le sol. <br />
+            <br /> Cela signifie que toutes les formes de vie sont considérées
+            comme des acteurs importants dans la production alimentaire et que
+            les relations entre eux sont optimisées pour créer un équilibre
+            écologique. Les aliments produits en permaculture sont souvent
+            considérés comme plus sains que les aliments produits par les
+            méthodes traditionnelles, car ils sont cultivés sans produits <br />
+            En outre, la permaculture encourage les pratiques de rotation des
+            cultures et de protection des sols pour renforcer la santé du sol et
+            de la vie microbienne, ce qui peut améliorer la qualité des aliments
+            produits. En somme, la permaculture offre une alternative durable
+            pour la production alimentaire qui tient compte de la santé de la
+            nature et des personnes. Elle crée une relation symbiotique entre
+            les éléments du système alimentaire pour produire des aliments de
+            qualité supérieure.
           </p>
         </section>
 

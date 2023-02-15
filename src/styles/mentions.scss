@@ -1,0 +1,14 @@
+main {
+  width: 80%;
+  p {
+    margin-bottom: 40px;
+    &:nth-child(4) {
+      margin-bottom: 150px;
+    }
+    a {
+      color: green;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}

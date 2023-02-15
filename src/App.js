@@ -10,17 +10,18 @@ import Fruits from "./pages/Fruits";
 import Home from "./pages/Home";
 import Journal from "./pages/Journal";
 import Legumes from "./pages/Legumes";
+import Erreur404 from "./pages/Erreur404";
+import Trending from "./pages/Trending";
+import Mentions from "./pages/Mentions";
 
 import "./styles/styles.scss";
-import "./styles/connexion.scss"
+import "./styles/connexion.scss";
 import Footer from "./components/Footer";
 import { UidContext } from "./components/AppContext";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useDispatch } from "react-redux";
 import { getUser } from "./actions/user.action";
-import Erreur404 from "./pages/Erreur404";
-import Trending from "./pages/Trending";
 
 //Creation de la structure des pages dans un layout avec outlet de react router dom
 const Layout = () => {
@@ -76,17 +77,20 @@ const router = createBrowserRouter([
         element: <Connexion />,
       },
       {
-        path: '/*',
-        element: <Erreur404/>
-      }
-
+        path: "/mentions",
+        element: <Mentions />,
+      },
+      {
+        path: "/*",
+        element: <Erreur404 />,
+      },
     ],
   },
 ]);
 
 const App = () => {
   const [uid, setUid] = useState(null);
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   useEffect(() => {
     const fetchToken = async () => {
@@ -104,11 +108,9 @@ const App = () => {
   }, [uid, dispatch]);
 
   return (
- 
-      <UidContext.Provider value={uid}>
-        <RouterProvider router={router} />
-      </UidContext.Provider>
-  
+    <UidContext.Provider value={uid}>
+      <RouterProvider router={router} />
+    </UidContext.Provider>
   );
 };
 
