@@ -56,8 +56,11 @@
 
     img {
       margin: auto;
-      width: 70%;
+      width: 50%;
       text-align: center;
+      @media (max-width: 885px) {
+        width: 85%;
+      }
     }
     h4 {
       font-size: 20px;

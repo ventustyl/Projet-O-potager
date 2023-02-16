@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b68164c8.css",
-    "main.js": "/static/js/main.e1a5465a.js",
+    "main.css": "/static/css/main.4e19f6a3.css",
+    "main.js": "/static/js/main.092378f8.js",
     "static/js/496.cfaa14a3.chunk.js": "/static/js/496.cfaa14a3.chunk.js",
     "static/media/Calendrier-legumes.jpg": "/static/media/Calendrier-legumes.3d2bbab10bf3e5320a9f.jpg",
     "static/media/Legumes.jpg": "/static/media/Legumes.36f4cf9489be6d5f8843.jpg",
@@ -32,12 +32,12 @@
     "static/media/heart.svg": "/static/media/heart.19c8723708fe4653b2cd897d37721258.svg",
     "static/media/checked.svg": "/static/media/checked.dce8c154e94d7fe9da8640b7c99041f6.svg",
     "static/media/check.svg": "/static/media/check.74103209ddb74b73190cb4202cd018b4.svg",
-    "main.b68164c8.css.map": "/static/css/main.b68164c8.css.map",
-    "main.e1a5465a.js.map": "/static/js/main.e1a5465a.js.map",
+    "main.4e19f6a3.css.map": "/static/css/main.4e19f6a3.css.map",
+    "main.092378f8.js.map": "/static/js/main.092378f8.js.map",
     "496.cfaa14a3.chunk.js.map": "/static/js/496.cfaa14a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b68164c8.css",
-    "static/js/main.e1a5465a.js"
+    "static/css/main.4e19f6a3.css",
+    "static/js/main.092378f8.js"
   ]
 }

@@ -13,7 +13,7 @@
     if (err.message.includes("email")) errors.email = "Email incorrect";
   
     if (err.message.includes("password"))
-      errors.password = "Mot de passe trop court 8 caractères minimum";
+      errors.password = "Mot de passe trop court 8 caractères minimum ou caractères spécial non respecté";
   
     if (err.code === 11000 && Object.keys(err.keyValue)[0].includes("pseudo"))
       errors.pseudo = "Cet pseudo est déjà pris";

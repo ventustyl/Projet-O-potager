@@ -27,6 +27,15 @@ const fileUpload = require('express-fileupload');
 
 const app = express();
 
+// --------------------------------------------------------------
+
+
+  
+
+
+  // --------------------------------------------------------------
+
+
 // Appel de routes
 const userRoutes = require('./routes/user.routes.js');
 const postRoutes = require('./routes/post.routes.js');
@@ -66,6 +75,10 @@ app.get('/jwtid', requireAuth, (req, res) => {
 app.use('/api/user', userRoutes);
 app.use('/api/post', postRoutes)
 
+
+
+
+
 // Apparation d'un hello world pour test le localhost:5000
 app.get('/', (req, res) => {
   res.send('Hello World!')
@@ -74,10 +87,10 @@ app.get('/', (req, res) => {
 
 // Connexion à la base de données Mongodb
 mongoose
-    .connect('mongodb+srv://'+ process.env.LOG +'@cluster0.zj87sas.mongodb.net/projet-final',
+    .connect('mongodb+srv://'+ process.env.LOG +'@cluster0.zj87sas.mongodb.net/projet-final', { ssl: true },
     )
   .then(
-    () =>
+    () =>    
       // Port d'écoute pour le back
       app.listen(process.env.PORT, () =>
         console.log(`Connexion Reussi  & Ecoute localhost Port ${process.env.PORT}`)
