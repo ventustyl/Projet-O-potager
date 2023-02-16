@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import SignInForm from "./SignInForm";
-import '../../styles/connexion.scss'
+import "../../styles/connexion.scss";
 const SignUpForm = () => {
   const [formSubmit, setFormSubmit] = useState(false);
   const [pseudo, setPseudo] = useState("");
@@ -88,7 +88,12 @@ const SignUpForm = () => {
           />
           <div className="email error"></div>
           <br />
-          <label htmlFor="password">Mot de passe</label>
+          <label htmlFor="password">
+            Mot de passe
+            <br /> (8 caractères minimum)
+            <br />
+            (1 minuscule, 1 masjuscule, 1 chiffre, 1 spécial)
+          </label>
           <br />
           <input
             type="password"
@@ -100,7 +105,7 @@ const SignUpForm = () => {
           <div className="password error"></div>
           <br />
           <label htmlFor="password-conf">Confirmer mot de passe</label>
-          <br/>
+          <br />
           <input
             type="password"
             name="password"
