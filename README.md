@@ -19,7 +19,7 @@ Style (1 point de rupture fluid design) : SCSS
 
 Dépendances Front: Axios – Dotenv – Js-cookie – Redux – React-router-dom – Sass – EmailJS - Validator - ReduxdevTools
 
-Dépendances Back : Bcrypt – Cookie parser – Dot-env – Jest – Jsonwebtoken – Mongoose – Nodemon – Validator
+Dépendances Back : Bcrypt – Cors - Cookie parser – Dot-env – Jest – Jsonwebtoken – Mongoose – Nodemon – Validator
 
 Dépendance pour le Serveur : PM2
 
