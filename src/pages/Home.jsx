@@ -64,6 +64,7 @@ const Home = () => {
         </section>
 
         <section className="carte">
+        <h2>Exemples aléatoires de culture</h2>
           <Card />
         </section>
       </main>
