@@ -27,4 +27,6 @@ Serveur : Linux Debian 11 & ISP Config
 
 Hébergeur : LWS	
 
-![image](https://user-images.githubusercontent.com/34771970/219954788-00001d71-dbdd-4b9a-aa78-855494856d83.png)
+
+![image](https://user-images.githubusercontent.com/34771970/219954838-f1754db4-f79a-4b76-b1c4-7051daa52bf2.png)
+
