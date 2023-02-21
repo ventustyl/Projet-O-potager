@@ -16,11 +16,11 @@ const Astuces = () => {
           <div>
             <h3>Légendes</h3>
             <div className="legende" >
-              <img src={Legende} alt="Légende" />
+              <img src={Legende} alt="Légende plantation" />
               <div className="astuce">
-                <img src={Listing1} alt="Listing 1" />
-                <img src={Listing2} alt="Listing 2" />
-                <img src={Listing3} alt="Listing 3" />
+                <img src={Listing1} alt="Listing Légumes Fruits 1" />
+                <img src={Listing2} alt="Listing Légumes Fruits 2" />
+                <img src={Listing3} alt="Listing Légumes Fruits 3" />
               </div>
             </div>
           </div>
